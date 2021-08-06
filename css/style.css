@@ -21,7 +21,7 @@ body, h1,h2,h3,h4,h5,h6,a,p,span,button,input,textarea{
 
 header{
 	width: 100%;
-	padding: 40px 0px;
+	padding: 20px 0px;
 }
 .h-btn{
 	background: #2500f9;
@@ -117,11 +117,12 @@ header{
 
 .banner{
 	width: 100%;
-	height: 102vh;
+	height: 110vh;
 	background: url(../image/banner.png);
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
+	padding: 20px 0px;
 }
 .subtitle i{
 	height: 35px;
@@ -434,7 +435,7 @@ header{
 
 
 /***************************
- feature section css
+ our-app section css
 ****************************/
 
 .our-app{
@@ -470,4 +471,382 @@ header{
     font-weight: 400;
     color: #616368;
     padding: 0px 57px;
+}
+
+/***************************
+ feature section css
+****************************/
+
+.feature{
+	width: 100%;
+	padding: 60px 0px;
+	position: relative;
+}
+.fea-img{
+	position: absolute;
+	text-align: right;
+	right: 0;
+	bottom: 25px;
+}
+.feature-title{
+	text-align: left;
+	margin-bottom: 24px;
+}
+.feature-title p{
+	font-size: 16px;
+	color: #616368;
+}
+.fea-item{
+	width: 24%;
+	height: auto;
+	margin: 24px 12px;
+}
+.fea-item h4{
+	font-size: 20px;
+    font-weight: 600;
+    color: #242f51;
+    margin: 16px 0px;
+}
+.fea-item p{
+	font-size: 16px;
+    color: #616368;
+    margin: 16px 0px;
+}
+.f-btn{
+	background: #2500f9;
+    padding: 8px 60px;
+    color: white;
+    border: none;
+    border-radius: 35px;
+    margin-top: 20px;
+}
+/***************************
+ pricing section css
+****************************/
+
+
+.pricing{
+	width: 100%;
+	padding: 80px 0px;
+}
+.pricing-title{
+	text-align: center;
+}
+.pricing-title h2, .testimonial-title h2, .faq-title h2, .feature-title h2{
+	font-size: 36px;
+	font-weight: 600;
+	color: #242f51;
+	margin-bottom: 24px;
+}
+.pricing-title p{
+	font-size: 16px;
+	margin-bottom: 40px;
+}
+.price-table{
+	margin-top: 32px;
+	text-align: center;
+}
+.price-controller{
+	border: 2px solid #ebebeb;
+	border-radius: 35px;
+	padding: 1px;
+	display: inline-block;
+}
+.price-btn{
+	padding: 10px 22px;
+	border: none;
+	background: transparent;
+}
+.active2{
+	background: #2500f9;
+	color: white;
+	border-radius: 35px;
+}
+.pt-table{
+	margin: 70px 0px;
+}
+.card{
+	border-radius: 8px;
+}
+.card-header{
+	background: #fbfcfd !important;
+	padding: 24px;
+	border: none;
+	border-top-right-radius: 8px;
+	border-top-left-radius: 8px;
+}
+.card-header h2{
+	color: #242f51;
+	font-size: 60px;
+	font-weight: 600;
+	margin: 32px 0px 18px 0px;
+}
+.card-header h2 span{
+	color: #999ca5;
+	font-size: 18px;
+	font-weight: 400;
+}
+.card-header strong{
+	font-size: 20px;
+	color: #242f51;
+}
+.card-header p .card-body p{
+	color: #999ca5;
+	font-weight: 500;
+}
+.card-body{
+	background: #fff;
+	border-bottom-right-radius: 8px;
+	border-bottom-left-radius: 8px;
+}
+.card-body p{
+	margin: 16px 0px;
+}
+.buy-btn{
+	padding: 18px 42px;
+	border: none;
+	background: #2500f9;
+	color: white;
+	border-radius: 35px;
+}
+.card-active{
+	box-shadow: 6px 10px 20px 10px rgb(195, 192, 192 / 18%);
+	border: none;
+}
+.trial{
+	margin: 20px 0px !important;
+	color: #2500f9 !important;
+}
+
+/***************************
+ testimonial section css
+****************************/
+
+
+.testimonial{
+	width: 100%;
+	padding: 100px 0px;
+	position: relative;
+	box-shadow: inset 0px 1px 1px rgb(206 206 206);
+}
+.tes-img{
+	position: absolute;
+	left: 0;
+	top: 100px;
+}
+.testimonial-title{
+	text-align: left;
+	margin-left: 30px;
+}
+.star i{
+	color: #ffcc00 !important;
+}
+.testimonial-1{
+	margin: 16px 0px;
+	margin-left: 30px;
+}
+.testimonial-1 h6{
+	font-size: 20px;
+	color: #242f51;
+	font-weight: 600;
+	margin: 20px 0px;
+}
+.testimonial-1{
+	color: #242f51;
+	font-size: 16px;
+}
+.t-user{
+	margin-top: 34px;
+}
+.t-user h6{
+	margin: 0 !important;
+}
+.t-user .col-md-6{
+	padding: 16px;
+}
+.t-user .col-md-6 h6{
+	color: #242f51;
+	font-size: 20px;
+	font-weight: 700;
+}
+
+
+/***************************
+ faq section css code
+****************************/
+
+.faq{
+	width: 100%;
+	padding: 100px 0px;
+}
+.faq-title{
+	text-align: center;
+}
+.faq-item{
+	margin-top: 32px;
+}
+.accordion-item{
+	background-color: #f5f7fa !important;
+	border: none;
+	padding: 18px;
+	margin-bottom: 8px;
+}
+.accordion-button{
+	color: #241f51 !important;
+	font-weight: 600;
+	background-color: #f5f7fa; 
+	padding: 0px 24px;
+}
+.accordion-button:not(.collapsed) {
+	color: #241f51 !important;
+	font-weight: 600;
+	background-color: #f5f7fa;
+	box-shadow: none;
+	border: none;
+	padding: 18px 24px !important;
+}
+.accordion-button::after {
+	background-image: url(../image/plus.png) !important;
+}
+.accordion-button:not(.collapsed)::after {
+    background-image: url(../image/remove.png) !important;
+}
+
+
+/***************************
+ download section css code
+****************************/
+
+
+
+.download{
+	width: 100%;
+	padding: 100px 0px;
+	position: relative;
+	box-shadow: inset 0px 1px 1px rgb(206 206 206);
+}
+.down-img{
+	position: absolute;
+	text-align: right;
+	right: 0;
+	bottom: -60px;
+}
+.down-title{
+	text-align: left;
+}
+.down-title h2{
+	font-size: 48px;
+	font-weight: 600;
+	color: #242f51;
+	margin-bottom: 24px;
+}
+.down-title p{
+	font-size: 16px;
+	color: #616368;
+	margin: 34px 0px;
+}
+
+
+/***************************
+ footer section css code
+****************************/
+
+
+.footer{
+    width: 100%;
+    padding: 0px 0;
+    background: #09142e;
+}
+.footer h3{
+    margin-top: 90px;
+    margin-bottom: 43px;
+    text-align: center;
+    color: #fcae61;
+    font-size: 30px;
+    font-weight: 600;
+}
+.footer span{
+    color: #ffffff;
+}
+.nav-item2{
+    margin-left: 22px;
+}
+.nav-link2{
+    color: white !important;
+    font-size: 16px;
+    font-weight: 300;
+    z-index: 9;
+    position: relative;
+}
+
+.nav-link2:hover{
+    font-weight: bold;
+    color: white !important;
+}
+/*.nav-link2::before{
+    content: '';
+    position: absolute;
+    height: 50%;
+    width: 0%;
+    bottom: 0;
+    left: 0;
+    background: #716F81;
+    transition: 0.4s;
+    z-index: -9;
+
+}
+.nav-link2:hover:before{
+    width: 100%;
+    transition: 0.4s;
+
+}
+.nav-link2::after{
+    content: '';
+    position: absolute;
+    height: 50%;
+    width: 0%;
+    top: 0;
+    right: 0;
+    background: #716F81;
+    transition: 0.4s;
+    z-index: -9;
+
+}
+.nav-link2:hover:after{
+    width: 100%;
+    transition: 0.4s;
+
+}*/
+
+.f-icon{
+    text-align: center;
+}
+
+.f-icon ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 10px 25px 0px 0px;
+}
+.f-icon ul li a i{
+    color: #cccccc;
+    font-size: 24px;
+    transition: 0.8s;
+    margin: 31px 0px 45px 0px;
+}
+
+.f-icon ul li a i:hover{
+    height: 100%;
+    transition: 0.8s;
+    /*color: #FF4646;*/
+    transform: scale(2.5);
+
+}
+.f-line{
+    text-align: center;
+    font-size: 14px;
+    font-weight: 300;
+    color: white;
+    margin-top: 17px;
+    margin-bottom: 90px;
+    text-align: center;
 }
